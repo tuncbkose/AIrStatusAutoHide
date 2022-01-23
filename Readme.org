@@ -1,0 +1,16 @@
+* AirStatus Auto Hide
+
+A small script to enable/disable [[https://github.com/delphiki/gnome-airpods-battery-status][Airpods Battery Status]] GNOME Shell Extension automatically, based on whether Airpods are connected or not.
+
+The script simply checks if any device containing "AirPods" in its name is connected every 10 seconds, using =bluetoothctl= and enables/disables the extension appropriately.
+
+Let me know if there is a better way to do this, this was a 5 minute hack.
+
+** Requirements
+
+-  [[https://github.com/delphiki/gnome-airpods-battery-status][Airpods Battery Status]]
+-  [[https://github.com/delphiki/AirStatus][AirStatus]]
+
+** Usage
+
+Either run the script every time you log in, or automate it. I'm using Ubuntu's Startup Applications.
